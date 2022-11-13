@@ -1,7 +1,7 @@
 
 
-const todo_app="Call your family";
-const todo_des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam omnis consectetur temporibus totam consequuntur reiciendis suscipit ratione voluptates, tempore animi ad sit ea earum harum saepe consequatur voluptate ipsam? Exercitationem?";
+//const todo_app="Call your family";
+//const todo_des="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam omnis consectetur temporibus totam consequuntur reiciendis suscipit ratione voluptates, tempore animi ad sit ea earum harum saepe consequatur voluptate ipsam? Exercitationem?";
 const date=new Date();
 const Ndate=date.getDate();
 const month=date.getMonth();

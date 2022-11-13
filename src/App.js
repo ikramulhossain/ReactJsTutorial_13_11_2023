@@ -1,17 +1,19 @@
 import React from 'react'
 import Card from "./component/Card"
+import data from "./Data.json"
 
-function App()
-{
+function App() {
 
-  return  <div>
-        <h1 className='handalingStyle'>Todo app</h1>
-        <Card todo_app="Call Mother" todo_des="This is Description One of the Most Helpfull"/>
-        <Card todo_app="Call Father" todo_des="This is Description One of the Most Helpfull"/>
-        <Card todo_app="Call Sister" todo_des="This is Description One of the Most Helpfull"/>
-        <Card todo_app="Call Brather" todo_des="This is Description One of the Most Helpfull"/>
+    let items=[];
+    for (let x=0 ; x < data.length; x++){
+        items.push(<Card todo_app = {data[x].Tittle} todo_des = {data[x].Description}/>)
+    }
 
-    </div>
+
+    return <div >
+        <h1 className = 'handalingStyle' > Todo app </h1>
+        {items}
+        </div>
 
 }
 
